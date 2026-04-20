@@ -1,0 +1,17 @@
+---
+pagination:
+  data: collections.tags
+  size: 1
+  alias: tag
+permalink: "/tags/{{ tag }}/"
+---
+
+<h1>Tag: {{ tag }}</h1>
+
+<ul>
+{% for note in collections.tags[tag] %}
+  <li>
+    <a href="{{ note.url }}">{{ note.data.title }}</a>
+  </li>
+{% endfor %}
+</ul>
