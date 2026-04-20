@@ -1,0 +1,11 @@
+<h1>All Notes</h1>
+
+<ul>
+{% for note in collections.notes %}
+  <li>
+    <a href="{{ note.url }}">{{ note.data.title }}</a>
+    <br>
+    Tags: {{ note.data.tags | join(", ") }}
+  </li>
+{% endfor %}
+</ul>
