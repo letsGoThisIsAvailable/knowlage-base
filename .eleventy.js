@@ -4,26 +4,26 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/notes/*.md");
   });
 
-  eleventyConfig.addCollection("tags", function(collectionApi) {
-  let files = collectionApi.getFilteredByGlob("src/notes/**/*.md");
-  let tags = {};
+  eleventyConfig.addCollection("tags", function (collectionApi) {
+    let files = collectionApi.getFilteredByGlob("src/notes/**/*.md");
+    let tags = {};
 
-  for (let file of files) {
-    let fileTags = file.data.tags || [];
+    for (let file of files) {
+      let fileTags = file.data.tags || [];
 
-    for (let tag of fileTags) {
-      if (!tags[tag]) {
-        tags[tag] = [];
+      for (let tag of fileTags) {
+        if (!tags[tag]) {
+          tags[tag] = [];
+        }
+
+        tags[tag].push(file);
       }
-
-      tags[tag].push(file);
     }
-  }
 
-  console.log("TAGS:", Object.keys(tags));
+    console.log("TAGS:", Object.keys(tags));
 
-  return tags;
-});
+    return tags;
+  });
 
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
 

@@ -1,3 +1,40 @@
-a p h1{ 
-  font-family:"Times New Roman";
+p, h1, h2, h3, h4, h5, h6{
+  font-family: sans-serif;
+}
+
+p{
+  font-size: 16px;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: transparent;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+#big-link{
+  font-size: 45px;
+}
+
+a.hover{
+  color:rgb(108, 108, 108);
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bolder;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size:25px;
 }

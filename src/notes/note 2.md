@@ -7,11 +7,11 @@ layout: layout.njk
 **note:** {} means optinial and spaces between < and next char is to make my website use as text - for actual HTML don't use
 
 
-**<h [1-6]> **- header
+**<h [1-6]>** - header
 
-**<p>**- paragraph
+**<p>** - paragraph
 
-**strong** -bold used for emotion
+**strong** - bold used for emotion
 
 **b** - bold for importance
 
@@ -27,9 +27,9 @@ layout: layout.njk
 
 **div** - divider
 
-**< !--[coment]**→ -coment
-**
-<a href="[link]">[display name]</a> **- hyperlink
+**< !--[comment ]** - comment
+
+**< a href="[link]">[display name]</a>** - hyperlink
 
 **< img src="[path]" {width = “[px]”}{hight = “[px]”} {alt="[descrption (good to add)]}">** -image
 
@@ -37,9 +37,9 @@ layout: layout.njk
 
 **< tr>** -row in table
 
-**<td>**- cell/data type in table
+**< td>**- cell/data type in table
 
-**<th>** table header
+**< th>** table header
 
 **< form action="[type]" method="[POST/GET]">** - form 
 
