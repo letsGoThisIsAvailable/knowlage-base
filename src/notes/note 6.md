@@ -1,6 +1,6 @@
 ---
 title: OSI model
-tags: [IT-terms, OSI, hardware, software]
+tags: [IT terms, OSI, hardware, software]
 layout: layout.njk
 ---
 

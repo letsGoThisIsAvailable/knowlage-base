@@ -1,6 +1,6 @@
 ---
 title: HTML Basics
-tags: [html, coding, cheat_sheet]
+tags: [html, coding, cheat sheet]
 layout: layout.njk
 ---
 
