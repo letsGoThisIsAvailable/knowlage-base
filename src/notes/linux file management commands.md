@@ -35,3 +35,5 @@ ______ > _____ - put text into a file
 touch _____ > create a new file
 
 cat ____.txt - display a .txt file in terminal
+
+systemd-analyze blame - shows all startup operations and time to take
