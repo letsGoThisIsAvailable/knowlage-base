@@ -22,6 +22,12 @@ module.exports = function (eleventyConfig) {
 
     console.log("TAGS:", Object.keys(tags));
 
+    tags = Object.fromEntries(
+      Object.entries(tags).sort(([a], [b]) =>
+        a.toLowerCase().localeCompare(b.toLowerCase())
+      )
+    );
+    
     return tags;
   });
 
