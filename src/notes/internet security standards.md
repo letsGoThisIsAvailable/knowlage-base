@@ -1,6 +1,6 @@
 ---
-title: internet security (UDP vs. TCP etc.)
-tags: [IT terms, internet security]
+title: internet security standards (UDP vs. TCP etc.)
+tags: [IT terms, internet security, standards]
 layout: layout.njk
 ---
 

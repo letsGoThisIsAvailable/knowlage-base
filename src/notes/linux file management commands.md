@@ -1,6 +1,6 @@
 ---
 title: linux file management commands
-tags: [file management, linux, terminal cheet sheet]
+tags: [file management, linux, terminal, cheat sheet]
 layout: layout.njk
 ---
 

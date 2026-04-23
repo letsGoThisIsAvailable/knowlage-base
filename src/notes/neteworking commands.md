@@ -1,6 +1,6 @@
 ---
 title: networking commands
-tags: [networking, linux, terminal, cheet sheet]
+tags: [networking, linux, terminal, cheat sheet]
 layout: layout.njk
 ---
 

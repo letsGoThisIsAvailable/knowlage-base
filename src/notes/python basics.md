@@ -1,6 +1,6 @@
 ---
 title: python basics
-tags: [python coding]
+tags: [python, coding, cheat sheet]
 layout: layout.njk
 ---
 

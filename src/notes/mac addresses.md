@@ -1,6 +1,6 @@
 ---
 title: IP and mac addresses
-tags: [ip adresses, mac adresses, IT terms]
+tags: [IT terms]
 layout: layout.njk
 ---
 
