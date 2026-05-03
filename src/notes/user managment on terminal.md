@@ -1,5 +1,5 @@
 ---
-title: user managment on terminal
+title: user management on terminal
 tags: [terminal, cheat sheet, linux]
 layout: layout.njk
 ---

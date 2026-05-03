@@ -3,8 +3,8 @@ title: terminal automation
 tags: [terminal, cheat sheet, linux]
 layout: layout.njk
 ---
-for [var] in $[list]; do [comand] $[var]; done - reapeat comand untill list is done
+**for [var] in $[list]; do [command] $[var]; done** - repeat comand until list is done
 
-_____ | ______ - tell terminal to do a different command when done with first.
+**_____ | ______** - tell terminal to do a different command when done first.
 
-[command]; [command] - seperate two comands
+**[command]; [command]** - separate two commands

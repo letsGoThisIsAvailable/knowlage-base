@@ -1,6 +1,6 @@
 ---
 title: ports and protocalls
-tags: [protocals, IT terms]
+tags: [IT terms]
 layout: layout.njk
 ---
 
