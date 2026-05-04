@@ -1,5 +1,5 @@
 ---
-title: HTML Basics
+title: HTML and CSS Basics
 tags: [html, coding, cheat sheet]
 layout: layout.njk
 ---
@@ -97,6 +97,8 @@ inline -no new lin element
 text-align:[left/right/center/justify(all lines full)]-align text
 
 to align other block elements make a parent divider <div class="parent"> and child class<div class ="child>. In css make the child element have any width(.child{width:[chose%]}).for inline elements making them into block elements by giving their own div(view code below)
+
+**justify-content:center;** - use if useing flex display to center an item
 
 <div class="parent">
  < img src="photo.png" class="child">

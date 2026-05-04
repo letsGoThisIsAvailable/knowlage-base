@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/home.css">
 
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">All Categories</button>
+  <button onclick="dropDown()" class="dropbtn">All Categories</button>
 
   <div id="myDropdown" class="dropdown-content">
     {% for tag, notes in collections.tags %}
@@ -13,14 +13,18 @@
 <h1 class=center>All Notes</h1>
 
 <div class="notes-container">
-
   {% for note in collections.notes %}
     <a class=notes-container href="{{ note.url }}">{{ note.data.title }}</a>
+    <div class=tags>
+      {% for tag in note.data.tags %}
+        <a class=tag href="/tags/{{ tag | url }}/">{{ tag }}</a>
+      {% endfor %}
+    </div>
   {% endfor %}
 </div>
 
 <script>
-function myFunction() {
+function dropDown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 

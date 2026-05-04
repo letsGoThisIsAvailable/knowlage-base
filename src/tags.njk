@@ -10,12 +10,9 @@ permalink: "/tags/{{ tag }}/"
 
 <a class=big-link href=/>< home</a>
 
-<h1>Tag: {{ tag }}</h1>
-
-<ul>
-{% for note in collections.tags[tag] %}
-  <li>
-    <a href="{{ note.url }}">{{ note.data.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<div class=content id=note-pages>
+  <h1 class=tag-name>Tag: {{ tag }}</h1>
+  {% for note in collections.tags[tag] %}
+    <a class=notes href="{{ note.url }}">{{ note.data.title }}</a>
+  {% endfor %}
+</div>
